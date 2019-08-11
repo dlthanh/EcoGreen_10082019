@@ -25,6 +25,9 @@ img {
 .mt15 {
     margin-top: 15px!important;
 }
+.mt30 {
+    margin-top: 30px!important;
+}
 .mt45 {
     margin-top: 45px!important;
 }
@@ -34,6 +37,12 @@ img {
 .mt70 {
     margin-top: 70px!important;
 }
+.mb10 {
+    margin-bottom: 10px!important;
+}
+.mb15 {
+    margin-bottom: 15px!important;
+}
 .mb30 {
     margin-bottom: 30px!important;
 }
@@ -42,8 +51,11 @@ img {
 }
 
 .emag-wrapper {
-    background-color: #182034;
+    /* background-color: #182034; */
     font-family: 'NotoSerif', sans-serif;
+}
+.emag-cover {
+    margin-bottom: 100px;
 }
 
 .emag-sapo {
@@ -53,19 +65,19 @@ img {
 .emag-content p {
     font-size: 17px;
     line-height: 27px;
-    color: #e4c59b;
+    /* color: #e4c59b; */
     margin-bottom: 30px;
 }
 
 .emag-imageblock {
     display: block;
-    border: solid 1px #e8c89d;
+    /* border: solid 1px #e8c89d; */
 }
 
 .emag-block {
-    margin-top: 70px;
-    padding-bottom: 70px;
-    border-bottom: solid 1px #e4c59b;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #767676;
 }
 .emag-block:last-child {
     border-bottom: none;
@@ -81,13 +93,13 @@ img {
     clear: both;    
 }
 .emag-image-left .emag-imageblock {
-    width: 705px;
+    width: 680px;
     margin-right: 30px;
     margin-top: 7px;
     float: left;
 }
 .emag-image-right .emag-imageblock {
-    width: 705px;
+    width: 680px;
     margin-left: 30px;
     margin-top: 7px;
     float: right;
@@ -95,7 +107,7 @@ img {
 
 .emag-title {
     max-width: 1920px;
-    margin: 70px auto 0;
+    margin: 70px auto;
 }
 
 .emag-image2column {
@@ -106,13 +118,24 @@ img {
     align-items: center;
 }
 .emag-image2column .emag-imageblock {
-    width: calc((100% / 2) - 2px);
+    width: calc((100% / 2) - 5px);
+}
+.emag-imageflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emag-imageflex .emag-imageblock:first-child {
+    width: 672px;
+}
+.emag-imageflex .emag-imageblock:last-child {
+    width: 299px;
 }
 
 .emag-credit {
     font-style: italic;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
     padding-bottom: 100px;
 }
 

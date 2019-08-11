@@ -9,7 +9,7 @@ img {
     vertical-align: middle;
 }
 .emag-wrapper {
-    background-color: #182034;
+    /* background-color: #182034; */
 }
 /* .emag-cover {
     padding-top: 46px;
@@ -67,14 +67,14 @@ img {
     line-height: 26px;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #e8c89d;
+    /* color: #e8c89d; */
 }
 .emag-content p.bold {
     font-weight: 700;
 }
 .emag-image {
-    border: solid 1px #e8c89d;
-    margin: 0 5px;
+    /* border: solid 1px #e8c89d;
+    margin: 0 5px; */
     margin-bottom: 5px;
 }
 .emag-main img {
@@ -91,9 +91,9 @@ img {
     /* color: #cccccc; */
 }
 .emag-credit {
-    margin-top: 50px;
+    margin-top: 30px;
     padding-bottom: 50px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 .emag-credit p {
     font-size: 16px;
@@ -113,7 +113,10 @@ img {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: solid 1px #e8c89d;
+    border-bottom: solid 1px #767676;
+}
+.emag-block:last-child {
+    border: none;
 }
 .emag-block .emag-content:last-child p:last-child {
     margin-bottom: 0;
