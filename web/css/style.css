@@ -116,6 +116,7 @@ img {
     display: -webkit-flex;
     display: flex;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     align-items: center;
 }
 .emag-image2column .emag-imageblock {
@@ -125,6 +126,7 @@ img {
     display: -webkit-flex;
     display: flex;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     align-items: center;
 }
 .emag-imageflex .emag-imageblock:first-child {
